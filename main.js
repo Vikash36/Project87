@@ -28,8 +28,9 @@ window.addEventListener("keydown", my_keydown);
 
 function my_keydown(e)
 {
-keyPressed = e.keyCode;
-console.log(keyPressed);
+	keyPressed = e.keyCode;
+	console.log(keyPressed);
+}
 
 	if(keyPressed == '82')
 	{
